@@ -1,0 +1,6 @@
+---
+title: Does this support Internet Explorer?
+weight: 50
+---
+:icons: font
+

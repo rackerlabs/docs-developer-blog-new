@@ -1,0 +1,6 @@
+---
+title: I can't see the tracing features embedded, new tab open when browsing traces
+weight: 70
+---
+:icons: font
+:linkattrs:

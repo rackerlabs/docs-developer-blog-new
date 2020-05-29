@@ -1,0 +1,14 @@
+{{ define "head_extra" }}
+  <link rel="stylesheet" href="{{ "css/developer-docs-blog-home.css" | relURL }}" />
+{{ end }}
+{{ define "content" }}
+  <main>
+  {{ partial "home/hero-section.html" . }}
+  {{ partial "home/about-section.html" . }}
+  {{ partial "home/features-section.html" . }}
+  {{ partial "home/blog-latest-section.html" . }}
+  {{ partial "home/video-latest-section.html" . }}
+  {{ partial "home/video-sprint-demo-section.html" . }}
+  </main>
+{{ end }}
+

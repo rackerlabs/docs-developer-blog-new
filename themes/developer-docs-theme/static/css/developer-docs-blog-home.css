@@ -1,0 +1,279 @@
+/* Hero block styles */
+section#hero {
+  /*background-image: url(/img/hero.svg);*/
+  /*background-position: 100% 0%;*/
+  /*background-repeat: no-repeat;*/
+  /*background-size: cover;*/
+
+  padding-top: var(--developer-docs-red-spacing);
+  padding-bottom: var(--developer-docs-red-spacing);
+}
+
+section#hero h1 {
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 45px;
+  color: #013144;
+
+  margin: 0 0 var(--developer-docs-blue-spacing) 0;
+}
+
+section#hero strong {
+  font-weight: 500;
+  line-height: normal;
+}
+
+section#hero p#hero-quote {
+  margin-top: var(--developer-docs-red-spacing);
+}
+
+section#hero p.buttons a.button {
+  display: block;
+  margin-bottom: var(--developer-docs-dark-green-spacing);
+}
+
+section#hero p.buttons a.button:last-child {
+  margin-bottom: 0;
+}
+
+section#hero p.buttons {
+  margin-top: var(--developer-docs-blue-spacing);
+}
+
+.go-to-videos-link a {
+  float:right;
+  font-size: 18px
+}
+
+.embed-video-links {
+ // nothing yet
+}
+
+.video-iframe-links {
+  width:336px;
+  height:188px;
+  frameborder:0;
+  allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture";
+  allowfullscreen: true;
+}
+
+@media only screen and (min-width: 850px) {
+  section#hero {
+    padding-top: var(--developer-docs-bright-green-spacing);
+    padding-bottom: var(--developer-docs-bright-green-spacing);
+  }
+}
+
+@media only screen and (min-width: 430px) {
+  section#hero p.buttons a.button {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+}
+
+
+/* "About" block styles */
+#intro-video iframe {
+  max-width: 100%;
+}
+
+/* Features block styles */
+div#features-blocks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div#features-blocks a div {
+  color: var(--developer-docs-font-color);
+}
+
+div#features-blocks a:hover div {
+  border-color: var(--developer-docs-link-hover-color);
+}
+
+div#features-blocks div {
+  height: 210px;
+  width: 290px;
+
+  padding: var(--developer-docs-pink-spacing);
+  background-color: var(--developer-docs-secondary-bg-color);
+  border: 1px solid var(--developer-docs-card-border-color);
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 0px rgba(245,245,245,1);
+
+  text-align: center;
+
+  margin-bottom: var(--developer-docs-pink-spacing);
+}
+
+@media only screen and (min-width: 550px) {
+  div#features-blocks div {
+    margin-right: var(--developer-docs-pink-spacing);
+    margin-bottom: var(--developer-docs-blue-spacing);
+  }
+}
+
+div#features-blocks img {
+  height: 106px;
+  padding-right: var(--developer-docs-pink-spacing);
+}
+
+div#features-blocks p {
+  margin-top: var(--developer-docs-pink-spacing);
+  font-weight: 300;
+}
+
+div#features-blocks h2 {
+  font-size: var(--developer-docs-font-size);
+  font-weight: 400;
+}
+
+div#features-blocks div.more-coming {
+  padding: var(--developer-docs-red-spacing) 0;
+}
+
+div#features-blocks div.more-coming h2 {
+  padding-top: var(--developer-docs-pink-spacing);
+}
+
+div#features-blocks div.more-coming p {
+  margin: 0;
+}
+
+/* "Latest blog" block styles */
+#go-to-blog-link {
+  margin: var(--developer-docs-blue-spacing) 0;
+}
+
+section#blog-latest {
+  background-color: var(--developer-docs-secondary-bg-color);
+  padding: var(--developer-docs-red-spacing) var(--developer-docs-pink-spacing); 
+}
+
+section#blog-latest div#blog-blocks {
+  clear: both;
+}
+
+section#blog-latest div#blog-blocks > a {
+  display: block;
+  margin-bottom: var(--developer-docs-pink-spacing);
+}
+
+section#blog-latest div#blog-blocks > a:last-child {
+  margin-bottom: 0;
+}
+
+section#blog-latest div#blog-blocks > a > div {
+  color: var(--developer-docs-font-color);
+  white-space: nowrap;
+
+  display: block;
+  font-size: 38px;
+
+  line-height: 28px;
+  background-color: white;
+  border: 1px solid var(--developer-docs-card-border-color);
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 0px rgba(245,245,245,1);
+
+  overflow: hidden;
+}
+
+section#blog-latest div#blog-blocks > a > div:hover {
+  border-color: var(--developer-docs-link-hover-color);
+}
+
+section#blog-latest div#blog-blocks p, section#blog-latest div#blog-blocks h1 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+section#blog-latest div#blog-blocks > a > div > * {
+  margin: var(--developer-docs-pink-spacing);
+}
+
+section#blog-latest div#blog-blocks > a > div header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-bottom: var(--developer-docs-pink-spacing);
+  border-bottom-style: solid;
+  border-bottom-color: var(--developer-docs-card-border-color);
+  border-bottom-width: 1px;
+}
+
+section#blog-latest div#blog-blocks > a > div:hover header {
+  border-color: var(--developer-docs-link-hover-color);
+}
+
+section#blog-latest div#blog-blocks > a >div header div:first-child {
+  font-size: 15px;
+}
+
+section#blog-latest div#blog-blocks > a > div header div:last-child {
+  font-size: 14px;
+  color: var(--developer-docs-font-color-secondary);
+}
+
+section#blog-latest div#blog-blocks > a > div h1 {
+  font-size: 18px;
+  font-weight: normal;
+  padding-bottom: var(--developer-docs-blue-spacing);
+}
+
+section#blog-latest div#blog-blocks > a > div p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+@media only screen and (min-width: 1000px) {
+  section#blog-latest div#blog-blocks > a {
+    display: inline;
+    margin-bottom: 0;
+  }
+
+  section#blog-latest div#blog-blocks > a > div {
+    display: inline-block;
+    width: 322px;
+    margin-right: var(--developer-docs-pink-spacing);
+  }
+}
+
+@media only screen and (min-width: 870px) {
+  section#blog-latest {
+    padding: var(--developer-docs-orange-spacing) var(--developer-docs-yellow-spacing); 
+  }
+
+  section#blog-latest > h1 {
+    float: left;
+  }
+
+  #go-to-blog-link {
+    text-align: right;
+    margin: 0;
+  }
+
+  #go-to-videos-link {
+    text-align: right;
+    margin: 0;
+  }
+
+  section#blog-latest div#blog-blocks {
+    white-space: nowrap;
+    overflow: auto;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  section#blog-latest {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+
+.rackspace-logo {
+  background-color: #EB0000;
+  transition: background .1s ease-in-out;
+}

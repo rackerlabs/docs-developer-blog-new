@@ -1,0 +1,6 @@
+---
+title: I can’t see the link to Tracing or traces tab in service details
+weight: 70
+---
+:icons: font
+:imagesdir: /images/faq/tracing/

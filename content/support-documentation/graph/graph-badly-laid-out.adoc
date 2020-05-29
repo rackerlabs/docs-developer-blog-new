@@ -1,0 +1,6 @@
+---
+title: Why is the graph badly laid out?
+weight: 20
+---
+
+
