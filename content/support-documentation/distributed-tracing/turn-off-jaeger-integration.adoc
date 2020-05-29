@@ -1,8 +1,0 @@
----
-title: "I see the following informative message: \"Could not fetch Jaeger info. Turning off Jaeger integration\""
-weight: 70
----
-:icons: font
-:imagesdir: /images/faq/tracing/
-
-

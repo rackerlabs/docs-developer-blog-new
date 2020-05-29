@@ -1,7 +1,0 @@
----
-title: Why does my workload graph show service nodes?
-weight: 70
----
-:imagesdir: /images/faq/graph/
-
-

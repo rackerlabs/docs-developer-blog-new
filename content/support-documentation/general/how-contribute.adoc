@@ -1,9 +1,0 @@
----
-title: How can I contribute?
-weight: 30
----
-:icons: font
-:sectlinks:
-
-
-

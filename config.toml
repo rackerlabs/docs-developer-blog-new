@@ -13,116 +13,40 @@ relativeURLs = false
 
 [menu]
   [[menu.main]]
-      identifier = "main_features"
-      name = "Features"
-      url = "/documentation/features"
+      identifier = "developer-home"
+      name = "Developer Home"
+      url = "/developer-home"
       weight = 1
   [[menu.main]]
-      identifier = "main_news"
-      name = "News"
-      url = "/news"
+      identifier = "developer-documentation"
+      name = "Developer Documentation"
+      url = "/developer-documentation"
       weight = 2
-      [[menu.main]]
-          identifier = "news_security"
-          name = "Security Bulletins"
-          url = "/news/security-bulletins"
-          weight = 1
-          parent = "main_news"
-      [[menu.main]]
-          identifier = "news_relnotes"
-          name = "Release Notes"
-          url = "/news/release-notes"
-          weight = 2
-          parent = "main_news"
   [[menu.main]]
-      identifier = "main_gettingstarted"
-      name = "Getting Started"
-      url = "/documentation/getting-started"
+      identifier = "blogs"
+      name = "Blogs"
+      url = "/blogs"
       weight = 3
-  [[menu.main]]
-      identifier = "main_contribute"
-      name = "Contribute"
-      url = "/contribute"
-      weight = 4
-  [[menu.main]]
-      identifier = "main_doc"
-      name = "Documentation"
-      url = "/documentation"
-      weight = 5
       [[menu.main]]
-          identifier = "doc_features"
-          name = "Features"
-          url = "/documentation/features"
+          identifier = "technical-blog"
+          name = "Technical Blog"
+          url = "/blogs/technical-blog"
           weight = 1
-          parent="main_doc"
-          [[menu.main]]
-             identifier = "validation"
-             name = "Validation"
-             url = "/documentation/validations"
-             weight = 1
-             parent="doc_features"
+          parent="blogs"
       [[menu.main]]
-          identifier = "doc_gettingstarted"
-          name = "Getting Started"
-          url = "/documentation/getting-started"
+          identifier = "rackspace-blog"
+          name = "Rackspace Blog"
+          url = "/blogs/rackspace-blog"
           weight = 2
-          parent="main_doc"
+          parent="blogs"
       [[menu.main]]
-          identifier = "doc_architecture"
-          name = "Architecture"
-          url = "/documentation/architecture"
+          identifier = "solve"
+          name = "Solve: Thought Leadership"
+          url = "/blogs/solve"
           weight = 3
-          parent="main_doc"
-      [[menu.main]]
-          identifier = "doc_runtimes"
-          name = "Custom Dashboards"
-          url = "/documentation/runtimes-monitoring"
-          weight = 4
-          parent="main_doc"
-      [[menu.main]]
-          identifier = "doc_tracing"
-          name = "Distributed Tracing"
-          url = "/documentation/distributed-tracing"
-          weight = 5
-          parent="main_doc"
-      [[menu.main]]
-          identifier = "doc_extensions"
-          name = "Extensions"
-          url = "/documentation/extensions"
-          weight = 6
-          parent="main_doc"
-      [[menu.main]]
-          identifier = "doc_swagger"
-          name = "Developer API"
-          url = "/documentation/developer-api"
-          weight = 7
-          parent="main_doc"
-      [[menu.main]]
-          identifier = "doc_glossary"
-          name = "Glossary"
-          url = "/documentation/glossary"
-          weight = 8
-          parent="main_doc"
-          [[menu.main]]
-              identifier = "concepts"
-              name = "Concepts"
-              url = "/documentation/glossary/concepts"
-              weight = 1
-              parent="doc_glossary"
-          [[menu.main]]
-              identifier = "observability"
-              name = "Observability"
-              url = "/documentation/glossary/observability"
-              weight = 2
-              parent="doc_glossary"
-          [[menu.main]]
-              identifier = "networking"
-              name = "Networking"
-              url = "/documentation/glossary/networking"
-              weight = 3
-              parent="doc_glossary"
+          parent="blogs"
   [[menu.main]]
-      identifier = "main_faq"
-      name = "FAQ"
-      url = "/faq"
-      weight = 6
+      identifier = "support-documentation"
+      name = "Support Documentation"
+      url = "/support-documentation"
+      weight = 4

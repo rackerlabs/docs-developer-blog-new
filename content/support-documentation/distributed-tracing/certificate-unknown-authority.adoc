@@ -1,8 +1,0 @@
----
-title: "I see the following informative message: \"certificate signed by unknown authority\""
-weight: 70
----
-:icons: font
-:imagesdir: /images/faq/tracing/
-:linkattrs:
-

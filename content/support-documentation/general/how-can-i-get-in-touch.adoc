@@ -1,8 +1,0 @@
----
-title: How can I get in touch?
-weight: 60
----
-:icons: font
-:sectlinks:
-
-
